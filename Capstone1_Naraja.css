@@ -1,0 +1,354 @@
+
+*{
+	margin:	0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+.parallax { 
+    /* The image used */
+    background-image: url("Images/London-Butch.jpg");
+
+    /* Set a specific height */
+    height: 950px; 
+
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.parallax2 { 
+    /* The image used */
+    background-image: url("Images/Burgers.jpg");
+
+    /* Set a specific height */
+    height: auto;
+    padding-bottom: 3em; 
+
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.parallax3 { 
+    /* The image used */
+    background-image: url("Images/tomahawk-resized.jpg");
+
+    /* Set a specific height */
+    height: auto;
+    padding-bottom: 3em; 
+
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.parallax-about1 { 
+    /* The image used */
+    background-image: url("Images/Philosophy-resized.png");
+
+    /* Set a specific height */
+    height: auto; 
+
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 3em;
+}
+
+.parallax-about2 {
+	    /* The image used */
+    background-image: url("Images/grill.jpeg");
+
+    /* Set a specific height */
+    height: auto; 
+
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 3em;
+}
+
+.parallax-about3 {
+	background-image: url("Images/Grill.jpg");
+
+    /* Set a specific height */
+    height: auto; 
+
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 3em;
+}
+ .parallax-careers {
+ 	background-image: url("Images/Hiring.jpeg");
+
+    /* Set a specific height */
+    height: 1200px; 
+
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 8em;
+ }
+
+.parallax-premium {
+ 	background-image: url("Images/premium.jpeg");
+
+    /* Set a specific height */
+    height: auto; 
+
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 3em;
+ }
+
+ .parallax-cotm {
+ 	background-image: url("Images/budget.jpeg");
+
+    /* Set a specific height */
+    height: auto; 
+
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 3em;
+ }
+
+ .parallax-beef1 {
+ 	background-image: url("Images/OurBeef.jpeg");
+
+    /* Set a specific height */
+    height: auto; 
+
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 3em;
+ }
+
+ .parallax-pork1 {
+    background-image: url("Images/OurPork.jpeg");
+
+    /* Set a specific height */
+    height: auto; 
+
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 3em;
+ }
+
+.navbar-brand{
+	padding-top: 0;
+}
+
+.navbar {
+	font-family: 'Permanent Marker', cursive;
+}
+
+.welcome {
+	font-family: 'IM Fell DW Pica SC', serif;
+	color: black;
+	font-size: 3vw;
+	/*padding: 3em;*/
+	background-color: rgba(217, 217, 217, 0.5);
+	padding: 2em;
+	text-align: center;
+}
+
+
+/* Create three columns of equal width */
+.columns {
+    float: left;
+    width: 30%;
+    padding: 8px;
+    margin-left: 1.5%;
+    margin-right: 1.5%;
+    font-family: 'Kavivanar', cursive;
+}
+
+/* Style the list */
+.price {
+    list-style-type: none;
+    border: 1px solid #eee;
+    margin: 0;
+    padding: 0;
+    -webkit-transition: 0.3s;
+    transition: 0.3s;
+    color: white;
+}
+
+/* Add shadows on hover */
+.price:hover {
+    box-shadow: 0 8px 12px 0 rgba(0,0,0,0.2)
+}
+
+/* Pricing header */
+.price .header {
+    background-color: #990000;
+    color: white;
+    font-size: 20px;
+}
+
+/* List items */
+.price li {
+    border-bottom: 1px solid #eee;
+    padding: 20px;
+    text-align: center;
+}
+
+/* Grey list item */
+.price .grey {
+    background-color: #262626;
+    font-size: 15px;
+}
+
+
+.button:hover {
+	 text-decoration: none;
+	 color: black;
+}
+
+/* Change the width of the three columns to 100% 
+(to stack horizontally on small screens) */
+@media only screen and (max-width: 600px) {
+    .columns {
+        width: 100%;
+    }
+}
+
+.columns {
+	margin-top: 50px;
+}
+
+.guarantee {
+	/*border: 1px solid red;*/
+	padding-top: 3vw;
+}
+.layout {
+	background-image: url(Images/butcher-paper-resized.jpg);
+	background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 25px;
+   /* opacity: 0.75;*/
+    margin-right: 70%;
+    text-align: center;
+    font-family: 'IM Fell DW Pica SC', serif;
+    font-size: 2vw;
+    color: black;
+}
+
+.titleguarantee {
+	font-family: 'IM Fell DW Pica SC', serif;
+	color: black;
+}
+.checked {
+	color: orange;
+}
+.cook {
+	padding-top: 50px;
+	text-align: center;
+	font-family: 'IM Fell DW Pica SC', serif;
+	color: white;
+}
+
+.philosophy {
+	font-family: 'IM Fell DW Pica SC', serif;
+	color: black;
+	font-size: 2vw;
+	/*padding: 3em;*/
+	background-color: rgba(217, 217, 217, 0.8);
+	padding: 3em;
+}
+
+ .visit {
+ 	font-family: 'IM Fell DW Pica SC', serif;
+	color: black;
+	font-size: 5vw;
+	/*padding: 3em;*/
+	background-color: rgba(217, 217, 217, 0.8);
+	padding: 2em;
+ }
+
+ .contact {
+ 	font-family: 'Kavivanar', cursive;
+ }
+
+.career {
+	font-family: 'Permanent Marker', cursive;
+	color: black;
+	font-size: 5vw;
+	/*padding: 3em;*/
+	background-color: rgba(217, 217, 217, 0.8);
+	padding: 2em;
+	text-align: center;
+}
+
+.premium {
+	font-family: 'IM Fell DW Pica SC', serif;
+	color: black;
+	font-size: 5vw;
+	/*padding: 3em;*/
+	background-color: rgba(217, 217, 217, 0.8);
+	padding: 2em;
+}
+
+.cotm {
+	font-family: 'IM Fell DW Pica SC', serif;
+	color: black;
+	font-size: 5vw;
+	/*padding: 3em;*/
+	background-color: rgba(217, 217, 217, 0.5);
+	padding: 2em;
+}
+
+.ourbeef {
+		font-family: 'IM Fell DW Pica SC', serif;
+	color: black;
+	font-size: 5vw;
+	/*padding: 3em;*/
+	background-color: rgba(217, 217, 217, 0.5);
+	padding: 2em;
+}
+
+.ourbeef2 {
+	color: black;
+}
+
+.ourpork {
+        font-family: 'IM Fell DW Pica SC', serif;
+    color: black;
+    font-size: 5vw;
+    /*padding: 3em;*/
+    background-color: rgba(217, 217, 217, 0.5);
+    padding: 2em;
+}
+
+.ourpork2 {
+    color: black;
+}
+
